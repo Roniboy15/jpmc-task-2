@@ -10,10 +10,7 @@ interface IState {
   data: ServerRespond[],
   showGraph: boolean,
 }
-/*Versuch
-useEffect(() => {
-}, [])
-*/
+/*Versuch*/
 
 
 /**
@@ -57,6 +54,9 @@ class App extends Component<{}, IState> {
         clearInterval(interval);
       }
     }, 100);
+
+  
+    
 
   }
 
