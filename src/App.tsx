@@ -13,6 +13,9 @@ interface IState {
 }
 
 /*
+Try to call the getDataFromServer() function each time new data comes in from the server, using useEffect(). 
+I tried to do it but my react skills are not sufficient. There would be no need then for a loop within the getDatafromServer function...
+
 useEffect(()=>{
 
 }, [])*/
